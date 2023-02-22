@@ -125,27 +125,27 @@
       </ul>
     </div>
   </div>
+</div>
 
-
-  <main>
-    <div class="cards-wrapper">
-      <div class="cards">
-        <% squad.members.forEach(member=> { %>
-          <div class="card">
-            <a href="<%= " https://github.com/" + member.gitHubHandle %>"
-              target="_blank"> <% if (member.avatar) { %>
-                <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-                <% }else{ %>
-                  <img src="/placeholder.jpg" alt="Placeholder avatar" />
-                  <% } %>
-                    <h2 class="name__card">
-                      <%= member.name %>
-                        <!-- <%= member.prefix %> -->
-                        <%= member.surname %>
-                    </h2>
-          </div>
-          <% }) %>
-            <div class="card placeholder-card"></div>
+<main>
+  <div class="cards-wrapper">
+    <div class="cards">
+      <% squad.members.forEach(member=> { %>
+      <div class="card">
+        <a href="<%= " https://github.com/" + member.gitHubHandle %>"
+        target="_blank"> <% if (member.avatar) { %>
+        <img
+          src="<%= member.avatar %>"
+          alt="De avatar van <%= member.name %>"
+        />
+        <% }else{ %>
+          <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />    
+              <% } %>
+        <h2 class="name__card">
+          <%= member.name %>
+          <!-- <%= member.prefix %> -->
+          <%= member.surname %>
+        </h2>
       </div>
     </div>
     <!-- </div> -->
