@@ -2,6 +2,10 @@ const body = document.querySelector('body');
 const btn = document.querySelector('.btn');
 const icon = document.querySelector('.btn__icon');
 
+const labelSquadA = document.querySelector('.A');
+const labelSquadB = document.querySelector('.B');
+const labelSquadC = document.querySelector('.C');
+
 //to save the dark mode use the object "local storage".
 
 //function that stores the value true if the dark mode is activated or false if it's not.
@@ -23,6 +27,7 @@ function load(){
   } else if(darkmode == 'false'){ //if the dark mode exists but is disabled
     icon.classList.add('fa-face-smile');
   }
+
 }
 
 

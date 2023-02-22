@@ -1,128 +1,154 @@
 <%- include('./partials/head') %>
 
-
-  </head>
-
-  <div class="grain">
-    <div class="navbar">
-
-      <div class="logo__text">
-        <img class="hva" src="/img/HvA-logo-02.png" alt="logo hva" />
-        <h2 class="frontend"> Frontend <br> Design & Development</h2>
-      </div>
-
-      <div class="btn">
-        <div class="btn__indicator">
-          <div class="btn__icon-container">
-            <i class="btn__icon fa-regular"></i>
-          </div>
-        </div>
-      </div>
-
+  <div class="navbar">
+    <div class="logo__text">
+      <img class="hva" src="/img/HvA-logo-02.png" alt="logo hva" />
+      <h2 class="frontend">
+        Frontend <br />
+        Design & Development
+      </h2>
     </div>
 
-    <div class="logo__container">
-      <img class="fdnd" src="/img/logo_fdnd_2.png" alt="logo fdnd" />
-      <img class="fdnd2" src="/img/logo_fdnd.png" alt="logo fdnd" />
-    </div>
-
-    <section>
-      <h1>Squad page</h1>
-      <h3 class="date">2022/2023</h3>
-
-      <div class="bigger_screen showcase">
-        <a href="" class="link link-dashboard sm-hidden vertical-center"></a>
-
-        <h2 class="title overflow-hidden">
-          <span class="to-right has-in-common" style="--delay: 0s">Squad page</span>
-        </h2>
-
-        <h2 class="subtitle overflow-hidden">
-          <span class="to-right has-in-common" style="--delay: 0.15s">2022 / 2023</span>
-        </h2>
-
-        <div class="vertical-text">
-          <div class="vertical-text-inner overflow-hidden">
-            <span class=" text_frontend  to-bottom has-in-common" style="--delay: 0.25s">& Development<br>
-              Frontend Design</span>
-          </div>
+    <div class="btn">
+      <div class="btn__indicator">
+        <div class="btn__icon-container">
+          <i class="btn__icon fa-regular"></i>
         </div>
-
-        <div class="description">
-          <p class="overflow-hidden">
-            <span class="to-bottom has-in-common" style="--delay: 0.035s">When you want to store data between server
-              restarts with Node, JSON files are a simple and convenient choice. Whether you are reading a config
-              file or persisting data for your application, Node has some built in utilities that make it easy to
-              read and write JSON files. Using JSON files in your app can be a useful way to persist data.</span>
-          </p>
-        </div>
-        </a>
-
-        <h2 class="sort link scale-rotate has-in-common" style="--delay: 0.75s"><i class="ri-sort-desc filter"></i>
-          Filter
-        </h2>
-      </div>
-    </section>
-
-    <h2 class="sort2"><i class="ri-sort-desc filter"></i> Filter
-    </h2>
-
-    <div class="marquee">
-      <div class="marquee__item">
-        <ul>
-          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-        </ul>
-      </div>
-      <div class="marquee__item">
-        <ul>
-          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-        </ul>
       </div>
     </div>
-
-    <main>
-      <section class="section_2">
-        <!-- <h2>
-        <%= squad.name %>
-      </h2> -->
-        <!-- Hier komen de members -->
-        <% squad.members.forEach(member=> { %>
-          <article>
-            <% if (member.avatar) { %>
-              <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>"
-                onerror="this.onerror=null;this.src='/img/placeholder.jpeg';" />
-              <% }else{ %>
-                <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
-                <% } %>
-                  <h2 class="name__card">
-                    <%= member.name %>
-                      <%= member.prefix %>
-                        <%= member.surname %>
-                          </h3>
-
-                          <button class="card__button"><a href="<%= member.gitHubHandle %>"></a>
-                            <h3 class="button__text">Github</h3>
-                          </button>
-          </article>
-          <% }) %>
-      </section>
-    </main>
-
-
   </div>
 
+  <div class="logo__container">
+    <img class="fdnd" src="/img/logo_fdnd_2.png" alt="logo fdnd" />
+    <img class="fdnd2" src="/img/logo_fdnd.png" alt="logo fdnd" />
+  </div>
 
+  <section>
+    <h1>Squad page</h1>
+    <h3 class="date">2022/2023</h3>
 
+    <div class="bigger_screen showcase">
+      <a href="" class="link link-dashboard sm-hidden vertical-center"></a>
 
+      <h2 class="title overflow-hidden">
+        <span class="to-right has-in-common" style="--delay: 0s">Squad page</span>
+      </h2>
 
-  <%- include('./partials/foot') %>
+      <h2 class="subtitle overflow-hidden">
+        <span class="to-right has-in-common" style="--delay: 0.15s">2022 / 2023</span>
+      </h2>
+
+      <div class="vertical-text">
+        <div class="vertical-text-inner overflow-hidden">
+          <span class="text_frontend to-bottom has-in-common" style="--delay: 0.25s">
+            & Development<br />
+            Frontend Design
+          </span>
+        </div>
+      </div>
+
+      <div class="marquee">
+        <div class="marquee__item">
+          <ul>
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
+                A</a></li>
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
+                B</a></li>
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
+                C</a></li>
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
+                A</a></li>
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
+                B</a></li>
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
+                C</a></li>
+          </ul>
+        </div>
+        <div class="marquee__item">
+          <ul>
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
+                A</a></li>
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
+                B</a></li>
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
+                C</a></li>
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
+                A</a></li>
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
+                B</a></li>
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
+                C</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="description">
+        <p class="overflow-hidden">
+          <span class="to-bottom has-in-common" style="--delay: 0.035s">When you want to store data between server
+            restarts with Node, JSON
+            files are a simple and convenient choice. Whether you are reading a
+            config file or persisting data for your application, Node has some
+            built in utilities that make it easy to read and write JSON files.
+            Using JSON files in your app can be a useful way to persist
+            data.</span>
+        </p>
+      </div>
+
+      <h2 class="sort link scale-rotate has-in-common" style="--delay: 0.75s">
+        <i class="ri-sort-desc filter"></i>
+        Filter
+      </h2>
+    </div>
+  </section>
+
+  <h2 class="sort2"><i class="ri-sort-desc filter"></i> Filter</h2>
+
+  <div class="marquee">
+    <div class="marquee__item marquee__mobile">
+      <ul>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+      </ul>
+    </div>
+    <div class="marquee__item marquee__mobile">
+      <ul>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="cards-wrapper">
+    <div class="cards">
+      <% squad.members.forEach(member=> { %>
+      <div class="card">
+        <a href="<%= " https://github.com/" + member.gitHubHandle %>"
+        target="_blank"> <% if (member.avatar) { %>
+        <img
+          src="<%= member.avatar %>"
+          alt="De avatar van <%= member.name %>"
+        />
+        <% }else{ %>
+          <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />    
+              <% } %>
+        <h2 class="name__card">
+          <%= member.name %>
+          <!-- <%= member.prefix %> -->
+          <%= member.surname %>
+        </h2>
+      </div>
+    </div>
+    <!-- </div> -->
+  </main>
+
+  <div class="grain"><%- include('./partials/foot') %></div>
