@@ -125,7 +125,7 @@
       </ul>
     </div>
   </div>
-  </div>
+
 
   <main>
     <div class="cards-wrapper">
@@ -136,7 +136,7 @@
               target="_blank"> <% if (member.avatar) { %>
                 <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
                 <% }else{ %>
-                  <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
+                  <img src="/placeholder.jpg" alt="Placeholder avatar" />
                   <% } %>
                     <h2 class="name__card">
                       <%= member.name %>
@@ -145,10 +145,9 @@
                     </h2>
           </div>
           <% }) %>
+            <div class="card placeholder-card"></div>
       </div>
-      <!-- </div> -->
-  </main>
+    </div>
+    </main>
 
-  <div class="grain">
-    <%- include('./partials/foot') %>
-  </div>
+  <div class="grain"><%- include('./partials/foot') %></div>
