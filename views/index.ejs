@@ -125,14 +125,12 @@
       </ul>
     </div>
   </div>
-  </div>
 
   <main>
     <div class="cards-wrapper">
       <div class="cards">
         <% squad.members.forEach(member=> { %>
           <div class="card">
-            <a href="<%= " https://github.com/" + member.gitHubHandle %>"
               target="_blank"> <% if (member.avatar) { %>
                 <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
                 <% }else{ %>
@@ -145,10 +143,11 @@
                     </h2>
           </div>
           <% }) %>
+            <div class="card placeholder-card"></div>
       </div>
       <!-- </div> -->
   </main>
+    </div>
+    </main>
 
-  <div class="grain">
-    <%- include('./partials/foot') %>
-  </div>
+  <div class="grain"><%- include('./partials/foot') %></div>
