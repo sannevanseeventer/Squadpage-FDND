@@ -437,12 +437,16 @@ body.darkmode {
     margin-left: 0.5em;
 }
 
+.darkmode .card:nth-of-type(25) {
+    background-color: transparent;
+}
+
 .darkmode h1 {
-    color: #282828;
+    color: rgb(154, 191, 247);
 }
 
 .darkmode .date {
-    color: #282828;
+    color: rgb(154, 191, 247);
 }
 
 .darkmode .A {
@@ -515,6 +519,18 @@ body.darkmode {
     -webkit-text-stroke-color: white;
 }
 
+.darkmode .card h2 {
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1em;
+    line-height: .8;
+    position: absolute;
+    bottom: -2%;
+    left: 5%;
+    transition: transform 0.25s;
+}
+
 .card {
     position: relative;
     width: 34%;
@@ -532,7 +548,7 @@ body.darkmode {
 
 .card:hover {
     width: 52%;
-    filter: grayscale(0);
+    filter: grayscale(1);
 }
 
 .card img {
@@ -547,7 +563,8 @@ body.darkmode {
 
 .card h2 {
     text-transform: uppercase;
-    font-weight: 200;
+    font-family: 'Poppins';
+    font-weight: 500;
     font-size: 1em;
     line-height: .8;
     position: absolute;
@@ -1009,8 +1026,9 @@ body.darkmode {
 
     .card h2 {
         text-transform: uppercase;
-        font-weight: 200;
-        font-size: 1em;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-size: 1.2em;
         line-height: .8;
         position: absolute;
         bottom: -2%;
@@ -1023,7 +1041,7 @@ body.darkmode {
         /* background-color: azure; */
         width: 28%;
         font-size: 1.8em;
-        filter: grayscale(0);
+        filter: grayscale(1);
     }
 
     .card:hover h2 {
@@ -1056,7 +1074,7 @@ body.darkmode {
 
     .placeholder-card:hover {
         font-size: .6em;
-        background-color: #1a1a1a !important;
+        background-color: transparent !important;
     }
 
     @media (prefers-reduced-motion: no-preference) {

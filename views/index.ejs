@@ -53,27 +53,33 @@
         <div class="marquee__item">
           <ul>
             <li>
-              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad
+              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                href="/?squad=squad-a-2022#cards">Squad
                 A</a>
             </li>
             <li>
-              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad
+              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                href="/?squad=squad-b-2022#cards">Squad
                 B</a>
             </li>
             <li>
-              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad
+              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                href="/?squad=squat-c-2022#cards">Squad
                 C</a>
             </li>
             <li>
-              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad
+              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                href="/?squad=squad-a-2022#cards">Squad
                 A</a>
             </li>
             <li>
-              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad
+              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                href="/?squad=squad-b-2022#cards">Squad
                 B</a>
             </li>
             <li>
-              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad
+              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                href="/?squad=squat-c-2022#cards">Squad
                 C</a>
             </li>
           </ul>
@@ -81,27 +87,33 @@
         <div class="marquee__item">
           <ul>
             <li>
-              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad
+              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                href="/?squad=squad-a-2022#cards">Squad
                 A</a>
             </li>
             <li>
-              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad
+              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                href="/?squad=squad-b-2022#cards">Squad
                 B</a>
             </li>
             <li>
-              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad
+              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                href="/?squad=squat-c-2022#cards">Squad
                 C</a>
             </li>
             <li>
-              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad
+              <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                href="/?squad=squad-a-2022#cards">Squad
                 A</a>
             </li>
             <li>
-              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad
+              <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                href="/?squad=squad-b-2022#cards">Squad
                 B</a>
             </li>
             <li>
-              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad
+              <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                href="/?squad=squat-c-2022#cards">Squad
                 C</a>
             </li>
           </ul>
@@ -121,13 +133,13 @@
       </div>
 
       <h2 class="sort link scale-rotate has-in-common" style="--delay: 0.75s">
-        <i class="ri-sort-desc filter"></i>
+        <i class="ri-arrow-down-line"></i>
         Filter
       </h2>
     </div>
   </section>
 
-  <h2 class="sort2"><i class="ri-sort-desc filter"></i> Filter</h2>
+  <h2 class="sort2"><i class="ri-arrow-down-line"></i> Filter</h2>
 
   <div class="marquee">
     <div class="marquee__item marquee__mobile">
@@ -155,71 +167,84 @@
   <main>
     <div class="cards-wrapper">
       <div class="cards" id="cards">
-          <% squad.members.forEach(member=> { %>
-              <div class="card">
-                  <a href="<%= "https://github.com/" + member.gitHubHandle %>" target="_blank">
-                      <% if (member.avatar) { %>
-                          <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-                          <% }else{ %>
-                              <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />                                    <% } %>
-                              <h2 class="name__card">                                            <%= member.name %>
-                                      <!-- <%= member.prefix %> -->
-                                      <%= member.surname %>
-                                      <!-- <img class="git-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png"> -->
-                                  </h2>
-                              </a>
-                          </div>
-                              <% }) %>
-                              <div class="card placeholder-card"><div class="marquee">
-      <div class="marquee__item">
-        <ul>
-          <li>
-            <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad A</a>
-          </li>
-          <li>
-            <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad B</a>
-          </li>
-          <li>
-            <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad C</a>
-          </li>
-          <li>
-            <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad A</a>
-          </li>
-          <li>
-            <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad B</a>
-          </li>
-          <li>
-            <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad C</a>
-          </li>
-        </ul>
+        <% squad.members.forEach(member=> { %>
+          <div class="card">
+            <a href="<%= " https://github.com/" + member.gitHubHandle %>" target="_blank">
+              <% if (member.avatar) { %>
+                <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+                <% }else{ %>
+                  <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
+                  <% } %>
+                    <h2 class="name__card">
+                      <%= member.name %>
+                        <!-- <%= member.prefix %> -->
+                        <%= member.surname %>
+                          <!-- <img class="git-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png"> -->
+                    </h2>
+            </a>
+          </div>
+          <% }) %>
+            <div class="marquee">
+              <div class="marquee__item">
+                <ul>
+                  <li>
+                    <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                      href="/?squad=squad-a-2022#cards">Squad A</a>
+                  </li>
+                  <li>
+                    <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                      href="/?squad=squad-b-2022#cards">Squad B</a>
+                  </li>
+                  <li>
+                    <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                      href="/?squad=squat-c-2022#cards">Squad C</a>
+                  </li>
+                  <li>
+                    <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                      href="/?squad=squad-a-2022#cards">Squad A</a>
+                  </li>
+                  <li>
+                    <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                      href="/?squad=squad-b-2022#cards">Squad B</a>
+                  </li>
+                  <li>
+                    <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                      href="/?squad=squat-c-2022#cards">Squad C</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="marquee__item">
+                <ul>
+                  <li>
+                    <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                      href="/?squad=squad-a-2022#cards">Squad A</a>
+                  </li>
+                  <li>
+                    <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                      href="/?squad=squad-b-2022#cards">Squad B</a>
+                  </li>
+                  <li>
+                    <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                      href="/?squad=squat-c-2022#cards">Squad C</a>
+                  </li>
+                  <li>
+                    <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
+                      href="/?squad=squad-a-2022#cards">Squad A</a>
+                  </li>
+                  <li>
+                    <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
+                      href="/?squad=squad-b-2022#cards">Squad B</a>
+                  </li>
+                  <li>
+                    <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
+                      href="/?squad=squat-c-2022#cards">Squad C</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
       </div>
-      <div class="marquee__item">
-        <ul>
-          <li>
-            <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad A</a>
-          </li>
-          <li>
-            <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad B</a>
-          </li>
-          <li>
-            <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad C</a>
-          </li>
-          <li>
-            <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022#cards">Squad A</a>
-          </li>
-          <li>
-            <a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022#cards">Squad B</a>
-          </li>
-          <li>
-            <a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022#cards">Squad C</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-      </div>
-  </div>
 
-    
+
     </div>
   </main>
 
