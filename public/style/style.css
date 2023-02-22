@@ -555,6 +555,126 @@ body.darkmode {
     transition: transform 0.25s;
 }
 
+.card:nth-of-type(1) {
+    background-color: blueviolet;
+}
+
+.card:nth-of-type(2) {
+    background-color: #98ed8e;
+}
+
+.card:nth-of-type(3) {
+    background-color: #000dff;
+}
+
+.card:nth-of-type(4) {
+    background-color: #ffd900;
+}
+
+.card:nth-of-type(5) {
+    background-color: #ff5e00;
+}
+
+.card:nth-of-type(6) {
+    background-color: #dbd8f0;
+}
+
+.card:nth-of-type(7) {
+    background-color: #ff002b;
+}
+
+.card:nth-of-type(8) {
+    background-color: #ccbbe7;
+}
+
+.card:nth-of-type(9) {
+    background-color: rgb(255, 139, 30);
+}
+
+.card:nth-of-type(10) {
+    background-color: rgb(86, 255, 168);
+}
+
+.card:nth-of-type(11) {
+    background-color: rgb(43, 83, 226);
+}
+
+.card:nth-of-type(12) {
+    background-color: blueviolet;
+}
+
+.card:nth-of-type(13) {
+    background-color: #8e9bed;
+}
+
+.card:nth-of-type(14) {
+    background-color: #000dff;
+}
+
+.card:nth-of-type(15) {
+    background-color: #ffd900;
+}
+
+.card:nth-of-type(16) {
+    background-color: #ff5e00;
+}
+
+.card:nth-of-type(17) {
+    background-color: #dbd8f0;
+}
+
+.card:nth-of-type(18) {
+    background-color: #ff002b;
+}
+
+.card:nth-of-type(19) {
+    background-color: #ccbbe7;
+}
+
+.card:nth-of-type(20) {
+    background-color: rgb(255, 139, 30);
+}
+
+.card:nth-of-type(21) {
+    background-color: rgb(102, 175, 249);
+}
+
+.card:nth-of-type(22) {
+    background-color: rgb(43, 83, 226);
+}
+
+.card:nth-of-type(23) {
+    background-color: blueviolet;
+}
+
+.card:nth-of-type(24) {
+    background-color: #60ff4f;
+}
+
+.card:nth-of-type(25) {
+    background-color: #000dff;
+}
+
+.card:nth-of-type(26) {
+    background-color: #ffd900;
+}
+
+.card:nth-of-type(27) {
+    background-color: #ff5e00;
+}
+
+.card:nth-of-type(28) {
+    background-color: #dbd8f0;
+}
+
+.card:nth-of-type(29) {
+    background-color: #ff002b;
+}
+
+.card:nth-of-type(30) {
+    background-color: #ccbbe7;
+}
+
 .card:hover h2 {
     transform: translateX(5%) scale(1.2);
 }
@@ -869,126 +989,6 @@ body.darkmode {
         bottom: -2%;
         left: 5%;
         transition: transform 0.25s;
-    }
-
-    .card:nth-of-type(1) {
-        background-color: blueviolet;
-    }
-
-    .card:nth-of-type(2) {
-        background-color: #98ed8e;
-    }
-
-    .card:nth-of-type(3) {
-        background-color: #000dff;
-    }
-
-    .card:nth-of-type(4) {
-        background-color: #ffd900;
-    }
-
-    .card:nth-of-type(5) {
-        background-color: #ff5e00;
-    }
-
-    .card:nth-of-type(6) {
-        background-color: #dbd8f0;
-    }
-
-    .card:nth-of-type(7) {
-        background-color: #ff002b;
-    }
-
-    .card:nth-of-type(8) {
-        background-color: #ccbbe7;
-    }
-
-    .card:nth-of-type(9) {
-        background-color: rgb(255, 139, 30);
-    }
-
-    .card:nth-of-type(10) {
-        background-color: rgb(86, 255, 168);
-    }
-
-    .card:nth-of-type(11) {
-        background-color: rgb(43, 83, 226);
-    }
-
-    .card:nth-of-type(12) {
-        background-color: blueviolet;
-    }
-
-    .card:nth-of-type(13) {
-        background-color: #8e9bed;
-    }
-
-    .card:nth-of-type(14) {
-        background-color: #000dff;
-    }
-
-    .card:nth-of-type(15) {
-        background-color: #ffd900;
-    }
-
-    .card:nth-of-type(16) {
-        background-color: #ff5e00;
-    }
-
-    .card:nth-of-type(17) {
-        background-color: #dbd8f0;
-    }
-
-    .card:nth-of-type(18) {
-        background-color: #ff002b;
-    }
-
-    .card:nth-of-type(19) {
-        background-color: #ccbbe7;
-    }
-
-    .card:nth-of-type(20) {
-        background-color: rgb(255, 139, 30);
-    }
-
-    .card:nth-of-type(21) {
-        background-color: rgb(102, 175, 249);
-    }
-
-    .card:nth-of-type(22) {
-        background-color: rgb(43, 83, 226);
-    }
-
-    .card:nth-of-type(23) {
-        background-color: blueviolet;
-    }
-
-    .card:nth-of-type(24) {
-        background-color: #60ff4f;
-    }
-
-    .card:nth-of-type(25) {
-        background-color: #000dff;
-    }
-
-    .card:nth-of-type(26) {
-        background-color: #ffd900;
-    }
-
-    .card:nth-of-type(27) {
-        background-color: #ff5e00;
-    }
-
-    .card:nth-of-type(28) {
-        background-color: #dbd8f0;
-    }
-
-    .card:nth-of-type(29) {
-        background-color: #ff002b;
-    }
-
-    .card:nth-of-type(30) {
-        background-color: #ccbbe7;
     }
 
     .card:hover {
