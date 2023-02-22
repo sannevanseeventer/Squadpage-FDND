@@ -1,4 +1,4 @@
-<h2>Redesign visitekaartje </h2>
+<h2>Squad page 2022/2023 </h2>
 <br>
 <img width="1506" alt="Schermafbeelding 2023-02-21 om 15 35 50" src="https://user-images.githubusercontent.com/112857444/220374267-fbad48a7-ecc1-42e8-a2ea-ff66ea58075c.png">
 
@@ -17,21 +17,21 @@
 </ul>
 
 <h3 id="#Opdracht"> 👨🏼‍💼 Opdracht</h3>
-In deze opdracht was het de bedoeling om een eerder gemaakt visitekaartje uit week 1 opieuw te ontwerpen en bouwen. Ik heb deze opdracht voor het eerst met Node gewerkt.  
+Nog typen
 
 
 <h3 id="#Designchallenge"> 🚀 Design challenge</h3>
-Het concept is een swipekaart voor bedrijven. Tegenwoordig wordt er vaak gekeken naar je foto en binnen enkele seconden beslist diegene of het een ja of een nee is, ook met CV's. Ik heb geprobeerd om meerdere flips te integreren in mijn visitekaartje met JS. Daarnaast was het werken met Node een hele uitdaging voor mij. 
+Nog typen
 
         
 <h3 id="#Gebruik"> 👩🏽‍💻 Gebruik website</h3>
-Bij dit visitekaartje kan je mij niet afwijzen op basis van hoe ik eruit zie. Als je op groen klikt, krijg je een kaartje te zien met de tekst "It's a match!" Als je op de i klikt, krijg je informatie over mij te zien en als je op de X klikt krijg je een waarschuwingsteken te zien met de tekst "Weet je zeker dat je Sanne wilt laten lopen?".
+Nog typen
         
 <h3 id="#Checklist"> ✅ Checklist</h3>
-Helaas krijg ik de terugknoppen niet werkend, hier moet ik mij verder in verdiepen. Voor de rest heb ik alles gedaan wat ik wilde doen. 
+Nog typen
         
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
-Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een korte lijst met gebruikte tools.
+Nog typen
 
 <h4>Tools</h4>
 <ul>
