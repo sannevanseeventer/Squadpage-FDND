@@ -23,7 +23,7 @@ function load(){
     icon.classList.add('fa-face-smile');
   } else if( darkmode == 'true'){ //if the dark mode is activated
     body.classList.add('darkmode');
-    icon.classList.add('fa-face-frown');
+    icon.classList.add('fa-moon');
   } else if(darkmode == 'false'){ //if the dark mode exists but is disabled
     icon.classList.add('fa-face-smile');
   }
@@ -43,9 +43,9 @@ btn.addEventListener('click', () => {
 
   if(body.classList.contains('darkmode')){
     icon.classList.remove('fa-face-smile');
-    icon.classList.add('fa-face-frown');
+    icon.classList.add('fa-moon');
   }else{
-    icon.classList.remove('fa-face-frown');
+    icon.classList.remove('fa-moon');
     icon.classList.add('fa-face-smile');
   }
 
