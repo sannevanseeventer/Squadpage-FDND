@@ -47,48 +47,36 @@
         </div>
       </div>
 
-      <div class="marquee" id="marquee">
+      <div class="marquee">
         <div class="marquee__item">
           <ul>
-            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
-                href="/?squad=squad-a-2022#marquee">Squad
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
                 A</a></li>
-            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
-                href="/?squad=squad-b-2022#marquee">Squad
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
                 B</a></li>
-            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
-                href="/?squad=squat-c-2022#marquee">Squad
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
                 C</a></li>
-            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
-                href="/?squad=squad-a-2022#marquee">Squad
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
                 A</a></li>
-            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
-                href="/?squad=squad-b-2022#marquee">Squad
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
                 B</a></li>
-            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
-                href="/?squad=squat-c-2022#marquee">Squad
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
                 C</a></li>
           </ul>
         </div>
         <div class="marquee__item">
           <ul>
-            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
-                href="/?squad=squad-a-2022#marquee">Squad
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
                 A</a></li>
-            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
-                href="/?squad=squad-b-2022#marquee">Squad
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
                 B</a></li>
-            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
-                href="/?squad=squat-c-2022#marquee">Squad
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
                 C</a></li>
-            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
-                href="/?squad=squad-a-2022#marquee">Squad
+            <li><a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>" href="/?squad=squad-a-2022">Squad
                 A</a></li>
-            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>"
-                href="/?squad=squad-b-2022#marquee">Squad
+            <li><a class="B<% if (squad.slug === 'squad-b-2022') { %> active<% };%>" href="/?squad=squad-b-2022">Squad
                 B</a></li>
-            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>"
-                href="/?squad=squat-c-2022#marquee">Squad
+            <li><a class="C<% if (squad.slug === 'squat-c-2022') { %> active<% };%>" href="/?squad=squat-c-2022">Squad
                 C</a></li>
           </ul>
         </div>
@@ -138,15 +126,17 @@
     </div>
   </div>
 
+
   <main>
     <div class="cards-wrapper">
       <div class="cards">
         <% squad.members.forEach(member=> { %>
           <div class="card">
+            <a href="<%= " https://github.com/" + member.gitHubHandle %>"
               target="_blank"> <% if (member.avatar) { %>
                 <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
                 <% }else{ %>
-                  <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
+                  <img src="/placeholder.jpg" alt="Placeholder avatar" />
                   <% } %>
                     <h2 class="name__card">
                       <%= member.name %>
@@ -157,8 +147,6 @@
           <% }) %>
             <div class="card placeholder-card"></div>
       </div>
-      <!-- </div> -->
-  </main>
     </div>
     </main>
 
