@@ -241,7 +241,6 @@ h2 {
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    gap: 2em;
     margin-top: 0.2em;
     font-size: 5em;
     color: #fff;
@@ -581,7 +580,7 @@ body.darkmode {
         text-align: left;
         display: grid;
         grid-template-columns: 8rem 12rem 10rem 1fr 1fr;
-        grid-template-rows: 8rem min-content min-content 1fr 1fr;
+        grid-template-rows: 8rem min-content min-content 1fr;
         grid-template-areas:
             "... ... ... title title"
             "... ... ... ... subtitle"
@@ -612,6 +611,9 @@ body.darkmode {
         display: none;
     }
 
+    .marquee__mobile {
+        display: none;
+    }
 
     .link-dashboard {
         grid-area: dashboard;
