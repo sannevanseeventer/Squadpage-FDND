@@ -15,6 +15,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -29,7 +31,7 @@ body {
 }
 
 .grain {
-    position: relative;
+    position: absolute;
     height: 100vh;
     text-align: left;
     isolation: isolate;
@@ -763,19 +765,19 @@ body.darkmode {
 }
 
 .card:nth-of-type(22) {
-    background-color: rgb(43, 83, 226);
+    background-color: #ffd900;
 }
 
 .card:nth-of-type(23) {
-    background-color: blueviolet;
+    background-color: rgb(43, 83, 226);
 }
 
 .card:nth-of-type(24) {
-    background-color: #60ff4f;
+    background-color: #4a54e0;
 }
 
 .card:nth-of-type(25) {
-    background-color: #000dff;
+    background-color: #292655;
 }
 
 .card:nth-of-type(26) {
@@ -798,7 +800,27 @@ body.darkmode {
     background-color: #ccbbe7;
 }
 
+
+
+.card:hover {
+    background-color: aliceblue;
+}
+
+.card:hover h2 {
+    color: #060606;
+}
+
+.placeholder-card {
+    max-width: 100%;
+    background-color: #6be8ca;
+}
+
+.placeholder-card:hover {
+    background-color: #282828;
+}
+
 @media screen and (min-width: 64em) {
+
 
     main section {
         display: flex;
@@ -834,7 +856,6 @@ body.darkmode {
             "... ... ... ... subtitle"
             "... newsletter ... description cta"
             "marquee marquee marquee marquee marquee"
-
     }
 
     .A:hover {
@@ -954,10 +975,11 @@ body.darkmode {
 
     .cards-wrapper {
         width: 100%;
+        height: 100%;
         overflow-Y: scroll;
         background-color: transparent;
         border-radius: 2em;
-        background-color: #060606;
+        /* background-color: #060606; */
     }
 
     .cards {
@@ -967,13 +989,13 @@ body.darkmode {
         flex-direction: row;
         align-items: stretch;
         flex-wrap: wrap;
-        height: 100%;
         width: 100%;
+        height: max-content;
     }
 
     .card {
         position: relative;
-        width: 23%;
+        width: 22%;
         max-width: 32%;
         aspect-ratio: 1 !important;
         background-color: rgb(57, 255, 182);
@@ -994,6 +1016,7 @@ body.darkmode {
         bottom: -2%;
         left: 5%;
         transition: transform 0.25s;
+        transition: color .2s;
     }
 
     .card:hover {
@@ -1022,6 +1045,18 @@ body.darkmode {
         width: 150px;
         border-radius: 100%;
         object-fit: cover;
+    }
+
+    .placeholder-card {
+        min-width: 10%;
+        max-width: 100%;
+        max-height: 50vh;
+        aspect-ratio: none;
+    }
+
+    .placeholder-card:hover {
+        font-size: .6em;
+        background-color: #1a1a1a !important;
     }
 
     @media (prefers-reduced-motion: no-preference) {
