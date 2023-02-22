@@ -20,7 +20,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: var(--light-color);
+    background-color: #1a1a1a;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -126,14 +126,14 @@ body {
 }
 
 .fdnd {
-    display: none
-}
-
-.fdnd2 {
     width: 6.5em;
     height: 5em;
     margin-top: 1em;
     margin-left: 0.5em;
+}
+
+.fdnd2 {
+    display: none;
 }
 
 .sort2 {
@@ -201,12 +201,12 @@ li a {
 .A {
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #6be8ca;
+    -webkit-text-stroke-color: white;
 }
 
 .A:hover {
     color: #9f77ed;
-    -webkit-text-stroke-color: #9f77ed;
+    -webkit-text-stroke-color: white;
 }
 
 h2 {
@@ -216,21 +216,21 @@ h2 {
 }
 
 .B {
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #6be8ca;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .B:hover {
-    color: #9f77ed;
+    color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9f77ed;
+    -webkit-text-stroke-color: white;
 }
 
 .C {
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9f77ed;
+    -webkit-text-stroke-color: white;
 }
 
 .active {
@@ -394,7 +394,7 @@ article a span {
 }
 
 .btn__icon {
-    color: var(--light-icon-color);
+    color: white;
     font-size: 1.5rem;
     margin-top: 0.8em;
     margin-right: 1em;
@@ -413,7 +413,11 @@ article a span {
 
 /* -------------- DARKMODE -------------- */
 body.darkmode {
-    background-color: #1a1a1a;
+    background-color: forestgreen;
+}
+
+.darkmode .card {
+    filter: grayscale(.3);
 }
 
 .darkmode .btn__icon {
@@ -482,7 +486,7 @@ body.darkmode {
     margin-bottom: 1.5em;
     border-radius: 50%;
     transition: 0.5s ease-in-out;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
 }
 
 .darkmode .card__button {
@@ -823,11 +827,12 @@ body.darkmode {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: normal;
     }
-
     .cards-wrapper {
         width: 100%;
         /* height: 100vh; */
         overflow-Y: scroll;
+        background-color: transparent;
+        border-radius: 2em;
     }
 
     .cards {
@@ -866,8 +871,125 @@ body.darkmode {
         transition: transform 0.25s;
     }
 
+    .card:nth-of-type(1) {
+        background-color: blueviolet;
+    }
 
-    
+    .card:nth-of-type(2) {
+        background-color: #98ed8e;
+    }
+
+    .card:nth-of-type(3) {
+        background-color: #000dff;
+    }
+
+    .card:nth-of-type(4) {
+        background-color: #ffd900;
+    }
+
+    .card:nth-of-type(5) {
+        background-color: #ff5e00;
+    }
+
+    .card:nth-of-type(6) {
+        background-color: #dbd8f0;
+    }
+
+    .card:nth-of-type(7) {
+        background-color: #ff002b;
+    }
+
+    .card:nth-of-type(8) {
+        background-color: #ccbbe7;
+    }
+
+    .card:nth-of-type(9) {
+        background-color: rgb(255, 139, 30);
+    }
+
+    .card:nth-of-type(10) {
+        background-color: rgb(86, 255, 168);
+    }
+
+    .card:nth-of-type(11) {
+        background-color: rgb(43, 83, 226);
+    }
+
+    .card:nth-of-type(12) {
+        background-color: blueviolet;
+    }
+
+    .card:nth-of-type(13) {
+        background-color: #8e9bed;
+    }
+
+    .card:nth-of-type(14) {
+        background-color: #000dff;
+    }
+
+    .card:nth-of-type(15) {
+        background-color: #ffd900;
+    }
+
+    .card:nth-of-type(16) {
+        background-color: #ff5e00;
+    }
+
+    .card:nth-of-type(17) {
+        background-color: #dbd8f0;
+    }
+
+    .card:nth-of-type(18) {
+        background-color: #ff002b;
+    }
+
+    .card:nth-of-type(19) {
+        background-color: #ccbbe7;
+    }
+
+    .card:nth-of-type(20) {
+        background-color: rgb(255, 139, 30);
+    }
+
+    .card:nth-of-type(21) {
+        background-color: rgb(102, 175, 249);
+    }
+
+    .card:nth-of-type(22) {
+        background-color: rgb(43, 83, 226);
+    }
+
+    .card:nth-of-type(23) {
+        background-color: blueviolet;
+    }
+
+    .card:nth-of-type(24) {
+        background-color: #60ff4f;
+    }
+
+    .card:nth-of-type(25) {
+        background-color: #000dff;
+    }
+
+    .card:nth-of-type(26) {
+        background-color: #ffd900;
+    }
+
+    .card:nth-of-type(27) {
+        background-color: #ff5e00;
+    }
+
+    .card:nth-of-type(28) {
+        background-color: #dbd8f0;
+    }
+
+    .card:nth-of-type(29) {
+        background-color: #ff002b;
+    }
+
+    .card:nth-of-type(30) {
+        background-color: #ccbbe7;
+    }
 
     .card:hover {
         /* background-color: azure; */
