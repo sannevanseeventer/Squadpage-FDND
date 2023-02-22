@@ -125,30 +125,30 @@
       </ul>
     </div>
   </div>
-</div>
+  </div>
 
-<main>
-  <div class="cards-wrapper">
-    <div class="cards">
-      <% squad.members.forEach(member=> { %>
-      <div class="card">
-        <a href="<%= " https://github.com/" + member.gitHubHandle %>"
-        target="_blank"> <% if (member.avatar) { %>
-        <img
-          src="<%= member.avatar %>"
-          alt="De avatar van <%= member.name %>"
-        />
-        <% }else{ %>
-          <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />    
-              <% } %>
-        <h2 class="name__card">
-          <%= member.name %>
-          <!-- <%= member.prefix %> -->
-          <%= member.surname %>
-        </h2>
+  <main>
+    <div class="cards-wrapper">
+      <div class="cards">
+        <% squad.members.forEach(member=> { %>
+          <div class="card">
+            <a href="<%= " https://github.com/" + member.gitHubHandle %>"
+              target="_blank"> <% if (member.avatar) { %>
+                <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+                <% }else{ %>
+                  <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
+                  <% } %>
+                    <h2 class="name__card">
+                      <%= member.name %>
+                        <!-- <%= member.prefix %> -->
+                        <%= member.surname %>
+                    </h2>
+          </div>
+          <% ) %>
       </div>
-    </div>
-    <!-- </div> -->
+      <!-- </div> -->
   </main>
 
-  <div class="grain"><%- include('./partials/foot') %></div>
+  <div class="grain">
+    <%- include('./partials/foot') %>
+  </div>
