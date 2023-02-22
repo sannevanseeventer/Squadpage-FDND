@@ -355,7 +355,6 @@ article:hover {
     height: 19em;
     background: #303673;
     transition: 0.3s ease-in-out;
-
 }
 
 article a span {
@@ -413,7 +412,7 @@ article a span {
 
 /* -------------- DARKMODE -------------- */
 body.darkmode {
-    background-color: forestgreen;
+    background-color: #dbd8f0;
 }
 
 .darkmode .card {
@@ -518,6 +517,7 @@ body.darkmode {
     position: relative;
     width: 34%;
     max-width: 55%;
+    max-height: 50vh;
     aspect-ratio: 1 !important;
     background-color: rgb(57, 255, 182);
     border-radius: 2em;
@@ -527,7 +527,6 @@ body.darkmode {
     overflow: hidden;
     filter: grayscale(1);
 }
-
 
 .card:hover {
     width: 52%;
@@ -949,10 +948,10 @@ body.darkmode {
     }
     .cards-wrapper {
         width: 100%;
-        /* height: 100vh; */
         overflow-Y: scroll;
         background-color: transparent;
         border-radius: 2em;
+        background-color: #060606;
     }
 
     .cards {
@@ -1003,10 +1002,9 @@ body.darkmode {
     }
 
     .placeholder-card {
-        min-width: 30%;
+        min-width: 23%;
         max-width: 100%;
-        max-height: 60%;
-        aspect-ratio: none;
+height: 20%;        background-color: #000dff;
     }
 
     .card img {
