@@ -1,12 +1,13 @@
 <h2>Squad page 2022/2023 </h2>
 
+![mocksp](https://user-images.githubusercontent.com/112857444/221012292-67543938-50ab-4df4-b20d-f5db4d258493.png)
 
-![mockup_squadpage](https://user-images.githubusercontent.com/112857444/221009628-6b8c32f9-147e-4a92-a489-a703af37b704.png)
+<br>
 
+![mockupspp](https://user-images.githubusercontent.com/112857444/221012321-50f0dc86-0c9b-4d24-86f5-524fdfa710b6.png)
 
-
-
-
+<br>
+<br>
  
 
 <h3>📚Inhoudsopgave</h3>
