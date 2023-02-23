@@ -399,6 +399,7 @@ article a span {
     font-size: 1.5rem;
     margin-top: 0.8em;
     margin-right: 1em;
+    cursor: pointer;
 }
 
 /* -------------- ANIMATION ------------ */
@@ -423,6 +424,7 @@ body.darkmode {
 
 .darkmode .btn__icon {
     color: var(--dark-icon-color);
+    cursor: pointer;
 }
 
 .darkmode .fdnd2 {
@@ -453,18 +455,21 @@ body.darkmode {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    cursor: pointer;
 }
 
 .darkmode .B {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    cursor: pointer;
 }
 
 .darkmode .C {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    cursor: pointer;
 }
 
 .darkmode .active {
@@ -975,6 +980,7 @@ body.darkmode {
         font-size: 2.5rem;
         margin-top: 0.8em;
         margin-right: 2em;
+        cursor: pointer;
     }
 
     .hva {
