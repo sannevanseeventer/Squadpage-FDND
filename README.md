@@ -31,7 +31,7 @@ Maak een squadpage website met alle visitekaartjes van FDND met gebruik van node
 
         
 <h3 id="#Gebruik"> 👩🏽‍💻 Gebruik website</h3>
-Door infinity slider(squad A, B en C) kan je kiezen op welke squad je 
+
         
         
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
