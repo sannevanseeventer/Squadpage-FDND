@@ -1,10 +1,12 @@
 <h2>Squad page 2022/2023 </h2>
 
-![mocksp](https://user-images.githubusercontent.com/112857444/221012292-67543938-50ab-4df4-b20d-f5db4d258493.png)
+![mockspps](https://user-images.githubusercontent.com/112857444/221014330-3a52e081-4884-46f2-a2d0-c765b9aa42c3.png)
+
 
 <br>
 
-![mockupspp](https://user-images.githubusercontent.com/112857444/221012321-50f0dc86-0c9b-4d24-86f5-524fdfa710b6.png)
+![sqqq](https://user-images.githubusercontent.com/112857444/221014417-278e8f49-cf01-4ed6-879d-e1761a782271.png)
+
 
 <br>
 <br>
