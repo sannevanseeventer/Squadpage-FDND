@@ -1,11 +1,6 @@
 <h2>Squad page 2022/2023 </h2>
-<br>
-<!-- <img width="1506" alt="Schermafbeelding 2023-02-21 om 15 35 50" src="https://user-images.githubusercontent.com/112857444/220374267-fbad48a7-ecc1-42e8-a2ea-ff66ea58075c.png">
 
-<br>
 
-<img width="1509" alt="Schermafbeelding 2023-02-21 om 15 35 32" src="https://user-images.githubusercontent.com/112857444/220374293-9c3daba8-19bc-4dcb-83fb-967c5f722ff6.png">
- -->
  <h2>Desktop</h2>
 <img width="350" alt="Screenshot 2023-02-23 at 09 29 31" src="https://user-images.githubusercontent.com/94745953/220856568-3e4c3ae9-6b0a-4998-9a61-adcf44de6826.png">
 <img width="350" alt="Screenshot 2023-02-23 at 09 29 48" src="https://user-images.githubusercontent.com/94745953/220856623-160f6f7e-5d59-4c8f-8d7e-8ebfaa350d6c.png">
