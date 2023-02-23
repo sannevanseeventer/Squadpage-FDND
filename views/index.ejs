@@ -167,11 +167,16 @@
   <main>
     <div class="cards-wrapper">
       <div class="cards" id="cards">
+
+        <!-- Onderstaande regel geeft aan dat voor elke member van de squad de  class .card van toepassing is  -->
         <% squad.members.forEach(member=> { %>
           <div class="card">
+            <!-- Op het kaartje wordt bij onderstaande url + de ingevulde GithubHandle de avatar laten zien die in Whois is ingevuld.   -->
             <a href="<%= " https://github.com/" + member.gitHubHandle %>" target="_blank">
+              <!-- Als de avatar is ingesteld wordt onderstaande  avatar + naam van member laten zien -->
               <% if (member.avatar) { %>
                 <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+                <!-- Als de avatar niet is ingesteld wordt onderstaande placeholder laten zien -->
                 <% }else{ %>
                   <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
                   <% } %>
@@ -188,6 +193,7 @@
               <div class="marquee__item">
                 <ul>
                   <li>
+                    <!-- bij filter animatie: als de slug 'squad-a-2022' wordt gebruikt krijgt 'Squad A' een active class toegewezen en blijft deze wit-->
                     <a class="A<% if (squad.slug === 'squad-a-2022') { %> active<% };%>"
                       href="/?squad=squad-a-2022#cards">Squad A</a>
                   </li>
