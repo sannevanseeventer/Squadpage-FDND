@@ -33,11 +33,11 @@ Maak een squadpage website met alle visitekaartjes van FDND met gebruik van node
 <h3 id="#Gebruik"> 👩🏽‍💻 Gebruik website</h3>
 
 <h3 id="Installatie"> 🛠Installatie</h3>
-- Clone deze repository.
-- Open de repository in je code-editor.
-- Open de terminal en typ 'npm install'.
-- Door gebruik te maken van 'npm start', krijg je een lokale link waar je de code live kunt bekijken.
-- Om je project online te zetten, kun je gebruik maken van 'Cyclic'.
+<li>Clone deze repository.</li>
+<li>Open de repository in je code-editor</li>
+<li> Open de terminal en typ 'npm install'</li>
+<li>Door gebruik te maken van 'npm start', krijg je een lokale link waar je de code live kunt bekijken</li>
+<li>Om je project online te zetten, kun je gebruik maken van 'Cyclic'</li>
         
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
 Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een korte lijst met gebruikte tools.
